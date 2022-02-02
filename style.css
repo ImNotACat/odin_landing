@@ -1,11 +1,72 @@
-/*.flex-container {
+  * {
+    font: "roboto";
+  }
 
-  }*/
-  
-  /* this selector selects all divs inside of .flex-container */
-  .flex-container div {
-    background: peachpuff;
-    border: 4px solid brown;
+  p { margin:0 }
+
+  .one {
+    background-color: #1F2937;
+    height: 350px;
+  }
+
+  .box-one {
+    margin: auto;
+    padding: 50px;
+    display: flex;
+  }
+
+  .box-one div {
+    flex: 1 1 0%;
+  } 
+
+  .box-one .one-middle {
+    flex: 3 1 0%;
+  }
+
+  .box-one .one-image {
+    flex: 3 1 0%;
+    background: rgba(131, 131, 131, 0.87);
+  }
+
+  .two {
+    background-color: #FFFFFF;
+    color: #1F2937;
     height: 100px;
-    /* flex: 1; */
+  }
+
+  .three {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    height: 100px;
+  }
+
+  .header {
+    color: #F9FAF8;
+    background-color: #1F2937;  
+    height: 30px; 
+  }
+
+  .title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  .information {
+    font-weight: 800;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .quote-main {
+    font-size: 36px;
+    font-weight: 100;
+    text-align: center;
+    font-style: italic;
   }
