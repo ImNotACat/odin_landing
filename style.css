@@ -11,7 +11,7 @@
 
   .box-one {
     margin: auto;
-    padding: 50px;
+    padding: 10px;
     display: flex;
   }
 
@@ -20,24 +20,56 @@
   } 
 
   .box-one .one-middle {
+    padding: 0px;
     flex: 3 1 0%;
   }
 
   .box-one .one-image {
+    text-align: center;
     flex: 3 1 0%;
     background: rgba(131, 131, 131, 0.87);
+  }
+
+  .box-one .one-left {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box-one .one-left div {
+    flex: 1 1 auto;
   }
 
   .two {
     background-color: #FFFFFF;
     color: #1F2937;
-    height: 100px;
+    height: 300px;
+    padding: 20px;
+  }
+
+  .box-two{
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+
+  .box-two div {
+    flex: 1 1 auto;
+  }
+
+  .img {
+    width:100px;
+    height:100px;
+    border-radius: 10%;
+    border: 3px solid;
+    border-color: #3882F6;
   }
 
   .three {
     background-color: #E5E7EB;
     color: #1F2937;
-    height: 100px;
+    height: 300px;
   }
 
   .header {
