@@ -104,12 +104,35 @@
     background-color: #E5E7EB;
     color: #1F2937;
     height: auto;
-    padding: 50px 200px;
+    padding: 50px 300px;
     display: flex;
   }
 
   .three div {
+    padding: 10px;
     flex: 1 1 auto;
+  }
+
+  .four {
+    background-color: #FFFFFF;
+    height:auto;
+    padding: 30px 300px;
+    display: flex;
+  }
+
+  .four div {
+    flex: 1 1 auto;
+  }
+
+  .action {
+    background-color: #3882F6;
+    flex: 3 1 auto;
+    color: #FFFFFF;
+    border-radius: 10%;
+  }
+
+  .call {
+    padding: 10px 50px;
   }
 
   .header {
